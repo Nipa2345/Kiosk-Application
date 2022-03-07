@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/kiosk_style.css">
+    <!-- <a href="https://github.com/Nipa2345/Kiosk_App" target="_blank">
+    </a> -->
+    <title>Kiosk_Application </title>
+    <script src="js/kiosk_script.js"></script>
+</head>
+
+<body class="The-container">
+    <div class="kioskapp-container">
+        <h1>Welcome to Indian Grocery Store</h1>
+        
+    </div>
+    <!--This is the product content-->
+    <div class="product-container">
+        <div class="product-header">
+            <h2>Choose a Products!</h2>
+            <table class="product-details">
+                <thead>
+                    <tr>
+                        <th>Products</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Add Here!</th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td>Biscuite</td>
+                    <td>$5</td>
+                    <td id="Biscuite"></td>
+                    <td><button onclick="addBiscuite()">Add to cart</button></td>
+                </tr>
+                <tr>
+                    <td>Sugar</td>
+                    <td>$8</td>
+                    <td id="Sugar"></td>
+                    <td><button onclick="addSugar()">Add to cart</button></td>
+                </tr>
+                <tr>
+                    <td>Milk</td>
+                    <td>$10</td>
+                    <td id="Milk"></td>
+                    <td><button onclick="addMilk()">Add to cart</button></td>
+                </tr>
+                <tr>
+                    <td>Paneer</td>
+                    <td>$5</td>
+                    <td id="Paneer"></td>
+                    <td><button onclick="addPaneer()">Add to cart</button></td>
+                </tr>
+                <tr>
+                    <td>Chocolate</td>
+                    <td>$2</td>
+                    <td id="Chocolate"></td>
+                    <td><button onclick="addChocolate()">Add to cart</button></td>
+                </tr>
+            </table>
+        </div>
+        <div id="product-footer">
+            <button onclick="checkout()">Checkout</button>
+        </div>
+    </div>
+
+    <!--This is the Receipt content-->
+    <div class="receipt-container">
+        <div class="receipt-header">
+            <h2>Receipt</h2>
+            <h3>Customer Name:</h3>
+            <h3 id="uname"></h3>
+        </div>
+        <table class="receipt-details">
+            <thead>
+                <tr>
+                    <th>Products</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Biscuite</td>
+                    <td id="npBiscuite"></td>
+                    <td id="priceBiscuite"></td>
+                </tr>
+                <tr>
+                    <td>Sugar</td>
+                    <td id="npSugar"></td>
+                    <td id="priceSugar"></td>
+                </tr>
+                <tr>
+                    <td>Milk</td>
+                    <td id="npMilk"></td>
+                    <td id="priceMilk"></td>
+                </tr>
+                <tr>
+                    <td>Paneer</td>
+                    <td id="npPaneer"></td>
+                    <td id="pricePaneer"></td>
+                </tr>
+                <tr>
+                    <td>Chocolate</td>
+                    <td id="npChocolate"></td>
+                    <td id="priceChocolate"></td>
+                </tr>
+            </thead>
+            <div id="receipt-footer">
+                <tr>
+                    <td>SubTotal</td>
+                    <td></td>
+                    <td id="SubSum"></td>
+                </tr>
+                <tr>
+                    <td>GST @ 13%</td>
+                    <td></td>
+                    <td id="GST"></td>
+                </tr>
+                <tr>
+                    <td>GrandTotal</td>
+                    <td></td>
+                    <td id="GrandTotal"></td>
+                </tr>
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,116 @@
+/*This is the Main container*/
+.The-container
+{
+    background-color:lightblue;
+}
+/*Products side*/
+.kioskapp-container
+{
+    text-align: center;
+    float: center; 
+    color:darkblue; 
+}
+.product-container{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 15px;
+    padding-left: 35px;
+    margin: 15px;
+    margin-left: 60px;
+    width: 480px;
+    height: 370px;
+    float: left; 
+    background-color:rgb(231, 212, 215);
+}
+.product-header h2
+{
+    text-align: center;
+    color:rgb(8, 8, 114);
+}
+.product-details th
+{
+    text-align: center;
+    font-size: large;
+    padding-right: 50px;
+    padding-bottom: 15px;
+    padding-top: 30px;
+    color:rgb(106, 19, 187);
+}
+.product-details td
+{
+    text-align: center;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size:medium;  
+}
+.product-details td button
+{ 
+    border: 2px solid black;
+    font-size:14px;
+}
+#product-footer
+{
+    text-align: center;
+    font-size: large;
+    margin-top: 15px;
+    float: center; 
+} 
+#product-footer button
+{
+    font-size: large;
+    font-weight: bold;
+    border: 3px solid;
+    background-color:rgb(159, 209, 207);   
+}
+
+/*Receipt*/
+.receipt-container
+{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 15px;
+    padding-left: 35px;
+    margin: 15px;
+    margin-right: 60px;
+    width: 480px;
+    height: 370px;
+    float: right;
+    background-color:rgb(231, 212, 215);
+}
+.receipt-header h2
+{
+    text-align: center;
+    margin-bottom: 2px;
+    color:rgb(8, 8, 114);
+}
+.receipt-header h3
+{
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 10px;  
+    text-align: center; 
+    color:rgb(8, 8, 114);
+}
+.receipt-details th
+{
+    text-align: center;
+    font-size: large;
+    padding-right: 65px; 
+    padding-bottom: 15px;
+    color:rgb(106, 19, 187);
+} 
+.receipt-details td
+{
+    text-align: center;
+    font-size:medium;  
+    padding-right: 50px;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+  
+
+
+
+
